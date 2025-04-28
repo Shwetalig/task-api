@@ -1,0 +1,32 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and sensitive files
+.env
+
+# Ignore vendor folder (for Composer)
+vendor/
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore log files
+*.log
+
+# Ignore cache or temp files
+cache/
+tmp/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore node_modules if any
+node_modules/
+
+# Ignore uploads folder
+uploads/
